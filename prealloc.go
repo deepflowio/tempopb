@@ -47,4 +47,5 @@ func ReuseByteSlices(buffs [][]byte) {
 // SliceFromBytePool gets a slice from the byte pool
 func SliceFromBytePool(size int) []byte {
 	/* return bytePool.Get(size)[:size] */
+	return nil
 }
